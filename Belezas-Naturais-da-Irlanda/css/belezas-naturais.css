@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+header {
+    background-color: #e86b05;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    background-image: none;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 100px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e86b05;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botão de voltar ao topo */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #26a100;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#back-to-top:hover {
+    background-color: #e86b05;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#botaofooter {
+    background-color: #59a106;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: #59a106;
+    border-radius: 8%;
+}
+
+.gallery {
+    
+    position:relative;
+    top: 60;
+    left: 100;
+    width: 250;
+    height: 300;
+    margin: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.highlight {
+    border: 5px solid #59a106;
+    box-shadow: 0 0 15px #59a106(255, 223, 0, 0.8);
+    transform: scale(1.1);
+  }
+
+.profile-info {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: cover;
+    margin-bottom: 100px;
+    background: #59a106;
+    text-align: center;
+  }
+
+#ordem {
+    text-align: center;
+    color: beige;
+}
+
+#texto-01 {
+    text-align:justify;
+    width: 963px;
+
+}
+#atracoes-texto {
+    text-align:justify;
+
+}
+
+.beautiful-lake-surrounded-by-mountains {
+    background-color: #59a106;
+    width: 320px;
+    height: 100px;
+    padding-top: 20px;
+    border:#59a106;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.plataforma {
+    text-align: center; /* Centraliza os títulos e mapas na seção */
+    background: #59a106;
+    width: 1100px;
+    height: 600px;
+    padding-top: 20px;
+    border:#59a106;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.plataforma-1 {
+    text-align: center; /* Centraliza os títulos e mapas na seção */
+    background: #59a106;
+    width: 1100px;
+    height: 400px;
+    padding-top: 20px;
+    border:#59a106;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+
+.map-container {
+    display: flex;
+    justify-content: center; /* Centraliza os iframes horizontalmente */
+    gap: 20px; /* Espaço entre os iframes */
+    margin-top: 20px;
+}
+.map-container-2 {
+    display: flex;
+    justify-content: center; /* Centraliza os iframes horizontalmente */
+    gap: 80px; /* Espaço entre os iframes */
+    margin-top: 20px;
+}
+iframe {
+    border: none; /* Remove bordas, opcional */
+}
+.BOTA0 {
+    background-color: #1cb205;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: #1cb205;
+    border-radius: 8%;
+}
+.MAPA {
+    text-align: center;
+    justify-content: center;
+}
